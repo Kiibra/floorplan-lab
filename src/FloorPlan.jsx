@@ -6,13 +6,14 @@ import Bath from "./assets/Bath"
 
 const FloorPlan = () => {
   return ( 
-    <div>
+    <div id="floorplan">
+      < Bedroom bedNum={1}/>
       < Kitchen />
+      < Bath size="Full " />
+      < Bedroom bedNum ={2}/>
       < LivingRoom />
-      < Bedroom bedNum={1} />
-      < Bedroom bedNum={2} />
-      < Bedroom bedNum={3} />
-      < Bath />
+      < Bath size="Half "/>
+      < Bedroom bedNum ={3}/>
     </div>
     
   )
