@@ -40,9 +40,14 @@
 .read-the-docs {
   color: #888;
 } */
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 div {
-  border: 1px solid grey;
+  border: 6px solid rgb(55, 57, 57);
   margin: 5px;
   padding: 5px;
 }
@@ -58,8 +63,47 @@ background: -webkit-linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CAEFD7", endColorstr="#F5BFD7", GradientType=1 );
 font-family: 'Times New Roman', Times, serif;
+font-weight: 550;
 }
 
 #floorplan{
   background-color: antiquewhite;
+
+}
+
+#baths{
+  background: hsla(57, 100%, 48%, 1);
+
+  background: linear-gradient(90deg, hsla(57, 100%, 48%, 1) 0%, hsla(204, 84%, 66%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, rgb(231, 205, 40) 0%, hsla(204, 84%, 66%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, rgb(145, 231, 199) 0%, hsla(204, 84%, 66%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F4E900", endColorstr="#60B6F1", GradientType=1 );
+color: rgb(20, 20, 21);
+font-weight: 550;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#kitchen{
+  background: hsla(39, 100%, 77%, 1);
+
+background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFD78A", endColorstr="#F4762D", GradientType=1 );
+}
+
+#sink{
+  background-color: aquamarine;
+  text-align: center;
+}
+#oven{
+  background-color: rgb(203, 161, 243);
+  color: white;
+  text-align: center;
 }

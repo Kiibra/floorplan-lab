@@ -1,8 +1,8 @@
 import Oven from "./assets/Oven"
 import Sink from "./assets/Sink"
-const Kitchen = (props) => {
+const Kitchen = () => {
   return ( 
-    <div>
+    <div id="kitchen">
       Kitchen
     < Sink />
     < Oven />
